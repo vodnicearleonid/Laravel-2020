@@ -13,6 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
+});*/
+
+/*Route::get('/', function (){
+    return 'Hello,  world!';
+});*/
+
+//Moduri de afisare in view fara controller home.blade.php
+
+/*Route::get('/', function (){
+    $res = 2 + 3;
+    $name = 'john';
+    return view('home', ['var'=>$res, 'name'=>$name]);
+});*/
+
+Route::get('/', function (){
+    $res = 2 + 3;
+    $name = 'john';
+    return view('home', compact('res', 'name'));
+});
+
+Route::get('/about', function (){
+    return '<h3>About Page</h3>';
 });

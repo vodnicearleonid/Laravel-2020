@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="" />
+    <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,6 +129,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jOVNJz6pAR5fd9XgPYKPpSFE9m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -129,6 +137,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -147,11 +161,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603675084095</updated>
-      <workItem from="1603675085229" duration="893000" />
+      <workItem from="1603675085229" duration="1503000" />
+      <workItem from="1603809088665" duration="4720000" />
     </task>
+    <task id="LOCAL-00001" summary="part1/part1_2.html">
+      <created>1603676290193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603676290193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="part1/part1_2.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="part1/part1_2.html" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1831" y="-259" key="CommitChangelistDialog2" timestamp="1603676290064">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1831" y="-259" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676290064" />
+    <state x="-1954" y="-80" key="DiffContextDialog" timestamp="1603676175601">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1954" y="-80" key="DiffContextDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676175601" />
+    <state x="-1500" y="252" key="NewPhpFileDialog" timestamp="1603822460272">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1500" y="252" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603822460272" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1603676297185">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676297185" />
+    <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603676230428">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676230428" />
   </component>
 </project>
