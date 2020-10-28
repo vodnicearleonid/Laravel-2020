@@ -38,3 +38,30 @@ Route::get('/', function (){
 Route::get('/about', function (){
     return '<h3>About Page</h3>';
 });
+/*
+Route::get('/contact', function (){
+    return view('contact');
+});
+
+Route::post('/send-email', function (){
+    if (!empty($_POST)){
+        dump($_POST);
+    }
+    return 'send email';
+});*/
+/*
+Route::match(['post', 'get'], '/contact', function (){
+    if (!empty($_POST)){
+        dump($_POST);
+    }
+    return view('contact');
+});*/
+
+Route::match(['post', 'get'], '/contactr', function (){
+    if (!empty($_POST)){
+        dump($_POST);
+    }
+    return view('contact');
+})->name('contacttest');
+
+Route::view('/test', 'test', ['test'=>'test data']);
