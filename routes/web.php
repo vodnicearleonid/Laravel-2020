@@ -57,11 +57,22 @@ Route::match(['post', 'get'], '/contact', function (){
     return view('contact');
 });*/
 
-Route::match(['post', 'get'], '/contactr', function (){
+/*Route::match(['post', 'get'], '/contact', function (){
     if (!empty($_POST)){
         dump($_POST);
     }
     return view('contact');
-})->name('contacttest');
+})->name('contacttest');*/
+
+Route::match(['post', 'get'], '/contact', function (){
+    if (!empty($_POST)){
+        dump($_POST);
+    }
+    return view('contact');
+});
 
 Route::view('/test', 'test', ['test'=>'test data']);
+
+//Route::redirect('/about', '/contact');
+//Route::redirect('/about', '/contact', '301');
+//Route::permanentRedirect('about', 'contact');

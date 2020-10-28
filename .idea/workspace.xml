@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,6 +163,7 @@
       <updated>1603675084095</updated>
       <workItem from="1603675085229" duration="1503000" />
       <workItem from="1603809088665" duration="12556000" />
+      <workItem from="1603881215356" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -199,10 +199,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1954" y="-80" key="DiffContextDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676175601" />
-    <state x="-1500" y="252" key="NewPhpFileDialog" timestamp="1603854127041">
+    <state x="-1500" y="252" key="NewPhpFileDialog" timestamp="1603886163241">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1500" y="252" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603854127041" />
+    <state x="-1500" y="252" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603886163241" />
     <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1603824513383">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
