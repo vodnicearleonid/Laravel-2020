@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title of the document</title>
+    <title>contact</title>
 </head>
 
 <body>
@@ -22,7 +22,16 @@
     <button type="submit"> submit </button>
 </form>--}}
 
+{{--<form action="" method="post">
+    @csrf
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <button type="submit"> submit </button>
+</form>--}}
+
 <form action="" method="post">
+    {{--{{ method_field('PUT') }}--}}
+    @method('PUT')
     @csrf
     <input type="text" name="name">
     <input type="email" name="email">
@@ -32,3 +41,14 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+

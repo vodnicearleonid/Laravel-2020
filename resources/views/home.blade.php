@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title of the document</title>
+    <title>home</title>
 </head>
 
 <body>
@@ -12,6 +12,10 @@ Hello, world! The content of the document......<br />
 
 {{ $res }} <br />
 {{ $name }}
+<br>
+{{ route('post', ['id' => 3]) }}
+<br>
+{{ route('admin.post', ['id' => 3]) }}
 
 </body>
 
