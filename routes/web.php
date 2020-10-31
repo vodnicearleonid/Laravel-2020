@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\Test\TestController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +16,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeControllerTest@index');
+//Route::get('/', 'HomeController@index');
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/test', [HomeController::class, 'test']);
+Route::get('/test2', [TestController::class, 'test2']);
+Route::get('/page/{slug}', [PageController::class, 'show']);
+
+
 
 Route::fallback(function (){
     abort(404, 'Oops! Page not found.. .'); // <h3>{{ $exception->getmessage() }}</h3> 404.blade.php
