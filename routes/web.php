@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\Test\TestController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -22,6 +23,8 @@ Route::get('/test', [HomeController::class, 'test']);
 Route::get('/test2', [TestController::class, 'test2']);
 Route::get('/page/{slug}', [PageController::class, 'show']);
 
+//Route::resource('/posts', 'PostController');
+Route::resources('/posts', [PostController::class, 'index']);
 
 
 Route::fallback(function (){
