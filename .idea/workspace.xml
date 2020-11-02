@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="Контроллеры в Laravel">
+    <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -175,7 +177,7 @@
       <workItem from="1604258110007" duration="67000" />
       <workItem from="1604258237248" duration="46000" />
       <workItem from="1604258313183" duration="17000" />
-      <workItem from="1604258345118" duration="3324000" />
+      <workItem from="1604258345118" duration="11580000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -226,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604111206779</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1604262559953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604262559953</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +247,8 @@
     <MESSAGE value="Роутинг в Laravel. Часть 2" />
     <MESSAGE value="Роутинг в Laravel. Часть 3" />
     <MESSAGE value="Контроллеры в Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Контроллеры в Laravel" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -249,10 +259,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604259107944">
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604262559804">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604259107944" />
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604262559804" />
     <state x="-1954" y="-80" key="DiffContextDialog" timestamp="1603676175601">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -261,14 +271,14 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1643" y="4" key="NewPhpClassDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604025715612" />
-    <state x="-1500" y="252" key="NewPhpFileDialog" timestamp="1604257220869">
+    <state x="-1436" y="164" key="NewPhpFileDialog" timestamp="1604281279278">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1500" y="252" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604257220869" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604111210859">
+    <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604281279278" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604262566634">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604111210859" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604262566634" />
     <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603676230428">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>

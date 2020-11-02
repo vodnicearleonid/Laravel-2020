@@ -23,8 +23,8 @@ Route::get('/test', [HomeController::class, 'test']);
 Route::get('/test2', [TestController::class, 'test2']);
 Route::get('/page/{slug}', [PageController::class, 'show']);
 
-//Route::resource('/posts', 'PostController');
-Route::resources('/posts', [PostController::class, 'index']);
+Route::resource('/admin/posts', PostController::class, ['parameters' =>['posts' => 'slug']]);
+//Route::resources(['posts' => PostController::class]);
 
 
 Route::fallback(function (){
