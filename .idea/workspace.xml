@@ -135,8 +135,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -174,7 +180,7 @@
       <workItem from="1604258110007" duration="67000" />
       <workItem from="1604258237248" duration="46000" />
       <workItem from="1604258313183" duration="17000" />
-      <workItem from="1604258345118" duration="13696000" />
+      <workItem from="1604258345118" duration="17130000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -239,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604283550442</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Configuration Your .env">
+      <created>1604366342672</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604366342672</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,25 +266,34 @@
     <MESSAGE value="Контроллеры в Laravel" />
     <MESSAGE value="test" />
     <MESSAGE value="CRUD Контроллеры ресурсов CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD Контроллеры ресурсов CRUD" />
+    <MESSAGE value="Configuration Your .env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration Your .env" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1651" y="13" key="#Inspections/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604110359245" />
+    <state x="-2883" y="-61" width="800" height="1076" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604450151471">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-2883" y="-61" width="800" height="1076" key="#com.intellij.execution.impl.EditConfigurationsDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604450151471" />
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604094432538">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604283550335">
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604366342580">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604283550335" />
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604366342580" />
     <state x="-1954" y="-80" key="DiffContextDialog" timestamp="1603676175601">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1954" y="-80" key="DiffContextDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676175601" />
+    <state width="343" height="692" key="HiddenNamespacesPopup" timestamp="1604449862720">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state width="343" height="692" key="HiddenNamespacesPopup/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604449862720" />
     <state x="-1643" y="4" key="NewPhpClassDialog" timestamp="1604025715612">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -280,10 +302,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604281279278" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604283554163">
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604366349036">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604283554163" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604366349036" />
     <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603676230428">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
