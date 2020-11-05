@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.loc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +128,9 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jOVNJz6pAR5fd9XgPYKPpSFE9m" />
@@ -180,7 +187,7 @@
       <workItem from="1604258110007" duration="67000" />
       <workItem from="1604258237248" duration="46000" />
       <workItem from="1604258313183" duration="17000" />
-      <workItem from="1604258345118" duration="17130000" />
+      <workItem from="1604258345118" duration="25470000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -252,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604366342672</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Configuration Your .env">
+      <created>1604526683025</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604526683025</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,26 +288,26 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1651" y="13" key="#Inspections/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604110359245" />
-    <state x="-2883" y="-61" width="800" height="1076" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604450151471">
+    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604534085779">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-2883" y="-61" width="800" height="1076" key="#com.intellij.execution.impl.EditConfigurationsDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604450151471" />
+    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604534085779" />
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604094432538">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604366342580">
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604526682911">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604366342580" />
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604526682911" />
     <state x="-1954" y="-80" key="DiffContextDialog" timestamp="1603676175601">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1954" y="-80" key="DiffContextDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676175601" />
-    <state width="343" height="692" key="HiddenNamespacesPopup" timestamp="1604449862720">
+    <state width="343" height="692" key="HiddenNamespacesPopup" timestamp="1604534036596">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state width="343" height="692" key="HiddenNamespacesPopup/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604449862720" />
+    <state width="343" height="692" key="HiddenNamespacesPopup/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604534036596" />
     <state x="-1643" y="4" key="NewPhpClassDialog" timestamp="1604025715612">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -302,10 +316,18 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604281279278" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604366349036">
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604526687918">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604366349036" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604526687918" />
+    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604536518639">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604536518639" />
+    <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604543048566">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604543048566" />
     <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603676230428">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
