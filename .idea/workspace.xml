@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Test/TestHomeComnt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,6 +147,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -183,7 +185,7 @@
       <workItem from="1604258110007" duration="67000" />
       <workItem from="1604258237248" duration="46000" />
       <workItem from="1604258313183" duration="17000" />
-      <workItem from="1604258345118" duration="36701000" />
+      <workItem from="1604258345118" duration="41219000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -290,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604634386860</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="целостность данных sql">
+      <created>1604715316546</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604715316546</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,25 +316,30 @@
     <MESSAGE value="Configuration Your .env" />
     <MESSAGE value="Миграции" />
     <MESSAGE value="Выполнение SQL-запросов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнение SQL-запросов" />
+    <MESSAGE value="целостность данных sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="целостность данных sql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1651" y="13" key="#Inspections/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604110359245" />
-    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604534085779">
+    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604871331052">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604534085779" />
+    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871331052" />
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604094432538">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604634386741">
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1604715316460">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604634386741" />
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604715316460" />
+    <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871993603" />
     <state x="-1954" y="-80" key="DiffContextDialog" timestamp="1603676175601">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -338,18 +352,26 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1643" y="4" key="NewPhpClassDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604025715612" />
-    <state x="-1436" y="164" key="NewPhpFileDialog" timestamp="1604281279278">
+    <state x="-1436" y="164" key="NewPhpFileDialog" timestamp="1604872292204">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604281279278" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604634390899">
+    <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604872292204" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1604715326222">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604634390899" />
-    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604536518639">
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604715326222" />
+    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604871343142">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604536518639" />
+    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871343142" />
+    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604869996177">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604869996177" />
+    <state x="-1796" y="-68" key="com.intellij.database.dbimport.ImportDialog" timestamp="1604871979533">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1796" y="-68" key="com.intellij.database.dbimport.ImportDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871979533" />
     <state x="-1578" y="111" width="594" height="453" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604631903157">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
