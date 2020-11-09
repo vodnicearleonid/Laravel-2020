@@ -25,8 +25,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //afisarea sau urmarirea interogarilor catre baza de date
-        /*DB::listen(function ($query){
-           dump($query->sql, $query->bindings);
-        });*/
+        DB::listen(function ($query){
+           dump($query->sql);
+        });
     }
 }
