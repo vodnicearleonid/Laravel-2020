@@ -33,5 +33,9 @@
             ->limit(10)
             ->join('country','city.CountryCode', '=', 'country.Code')
             ->orderBy('ID')
-            ->get();*/ //"select `city`.`ID`, `city`.`Name` as `city_name`, `country`.`Code`, `country`.`Name` as `country_name` from `city` inner join `country` on `city`.`CountryCode`  ▶"
 
+    //->get();*/ //"select `city`.`ID`, `city`.`Name` as `city_name`, `country`.`Code`, `country`.`Name` as `country_name` from `city` inner join `country` on `city`.`CountryCode`  ▶"
+    //$post = new Post(); //"insert into `posts` (`title`, `content`, `updated_at`, `created_at`) values (?, ?, ?, ?)"
+   //$post->title = 'Articolul nr2';
+    //$post->content = 'Lorem ipsum nr1';
+   //$post->save();
