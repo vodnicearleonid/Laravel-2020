@@ -188,7 +188,10 @@
       <workItem from="1605013227882" duration="199000" />
       <workItem from="1605013446706" duration="1109000" />
       <workItem from="1605098919271" duration="10760000" />
-      <workItem from="1605215794356" duration="2232000" />
+      <workItem from="1605215794356" duration="3094000" />
+      <workItem from="1605219797755" duration="70000" />
+      <workItem from="1605219939623" duration="76000" />
+      <workItem from="1605220075441" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -358,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605192434123</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Модель и Eloquent ORM. Часть 2">
+      <created>1605218718141</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605218718141</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,10 +409,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1605192433973">
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1605218717988">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605192433973" />
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605218717988" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -423,18 +433,18 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605107965531" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1605192441689">
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1605218722225">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605192441689" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605218722225" />
     <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604871343142">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871343142" />
-    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604869996177">
+    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605271496431">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604869996177" />
+    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605271496431" />
     <state x="-1796" y="-68" key="com.intellij.database.dbimport.ImportDialog" timestamp="1604871979533">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -443,10 +453,14 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1578" y="111" width="594" height="449" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605218156907" />
-    <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605191379919">
+    <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605271453867">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605191379919" />
+    <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605271453867" />
+    <state x="-1593" y="101" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1605272365215">
+      <screen x="-5074" y="-367" width="5074" height="1417" />
+    </state>
+    <state x="-1593" y="101" key="com.jetbrains.php.test.PhpNewTestDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605272365215" />
     <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603676230428">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
