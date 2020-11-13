@@ -191,7 +191,7 @@
       <workItem from="1605215794356" duration="3094000" />
       <workItem from="1605219797755" duration="70000" />
       <workItem from="1605219939623" duration="76000" />
-      <workItem from="1605220075441" duration="5263000" />
+      <workItem from="1605220075441" duration="8071000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605218718141</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Модель и Eloquent ORM. Часть 2 One To One">
+      <created>1605272763103</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605272763103</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +401,8 @@
     <MESSAGE value="Модель и Eloquent ORM. Часть 1" />
     <MESSAGE value="Модель и Eloquent ORM. Часть 1_2" />
     <MESSAGE value="Модель и Eloquent ORM. Часть 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модель и Eloquent ORM. Часть 2" />
+    <MESSAGE value="Модель и Eloquent ORM. Часть 2 One To One" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модель и Eloquent ORM. Часть 2 One To One" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -409,10 +417,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1605218717988">
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1605272762955">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605218717988" />
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605272762955" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -433,10 +441,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605107965531" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1605218722225">
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1605272767288">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605218722225" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605272767288" />
     <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604871343142">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -449,10 +457,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1796" y="-68" key="com.intellij.database.dbimport.ImportDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871979533" />
-    <state x="-1578" y="111" width="594" height="449" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605218156907">
+    <state x="-1578" y="111" width="594" height="441" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605308421460">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1578" y="111" width="594" height="449" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605218156907" />
+    <state x="-1578" y="111" width="594" height="441" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308421460" />
     <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605271453867">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
