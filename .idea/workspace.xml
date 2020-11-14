@@ -191,7 +191,9 @@
       <workItem from="1605215794356" duration="3094000" />
       <workItem from="1605219797755" duration="70000" />
       <workItem from="1605219939623" duration="76000" />
-      <workItem from="1605220075441" duration="8071000" />
+      <workItem from="1605220075441" duration="8722000" />
+      <workItem from="1605353142888" duration="97000" />
+      <workItem from="1605365498129" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -375,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605272763103</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Связи моделей. Часть 1 One To One, One To Many">
+      <created>1605308642269</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605308642269</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +411,8 @@
     <MESSAGE value="Модель и Eloquent ORM. Часть 1_2" />
     <MESSAGE value="Модель и Eloquent ORM. Часть 2" />
     <MESSAGE value="Модель и Eloquent ORM. Часть 2 One To One" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модель и Eloquent ORM. Часть 2 One To One" />
+    <MESSAGE value="Связи моделей. Часть 1 One To One, One To Many" />
+    <option name="LAST_COMMIT_MESSAGE" value="Связи моделей. Часть 1 One To One, One To Many" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -417,10 +427,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1605272762955">
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2" timestamp="1605308642170">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605272762955" />
+    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
@@ -441,10 +451,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605107965531" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1605272767288">
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2" timestamp="1605308648733">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605272767288" />
+    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
     <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604871343142">
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
