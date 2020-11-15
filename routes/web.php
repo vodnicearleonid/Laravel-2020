@@ -18,10 +18,10 @@ use App\Http\Controllers\PageController;
 */
 
 //Route::get('/', 'HomeController@index');
-Route::get('/', [HomeController::class, 'index']);
-Route::get('/test', [HomeController::class, 'test']);
-Route::get('/test2', [TestController::class, 'test2']);
-Route::get('/page/{slug}', [PageController::class, 'show']);
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/page/about', [PageController::class, 'show'])->name('page.about');
+
+
 
 Route::resource('/admin/posts', PostController::class, ['parameters' =>['posts' => 'slug']]);
 //Route::resources(['posts' => PostController::class]);

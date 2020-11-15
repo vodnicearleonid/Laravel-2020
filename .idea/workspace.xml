@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/testHomeControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/testHomeControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web_test_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web_test_route.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +20,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,6 +163,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -193,7 +209,7 @@
       <workItem from="1605219939623" duration="76000" />
       <workItem from="1605220075441" duration="8722000" />
       <workItem from="1605353142888" duration="97000" />
-      <workItem from="1605365498129" duration="10448000" />
+      <workItem from="1605365498129" duration="19934000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -391,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605368979713</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Связи моделей. Часть 2 Many To Many">
+      <created>1605378692986</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605378692986</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +443,8 @@
     <MESSAGE value="Модель и Eloquent ORM. Часть 2 One To One" />
     <MESSAGE value="Связи моделей. Часть 1 One To One, One To Many" />
     <MESSAGE value="жадная загрузка laravel One To One, One To Many" />
-    <option name="LAST_COMMIT_MESSAGE" value="жадная загрузка laravel One To One, One To Many" />
+    <MESSAGE value="Связи моделей. Часть 2 Many To Many" />
+    <option name="LAST_COMMIT_MESSAGE" value="Связи моделей. Часть 2 Many To Many" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -435,10 +459,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1605368979556">
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1605378692891">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605368979556" />
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605378692891" />
     <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
@@ -456,14 +480,15 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1643" y="4" key="NewPhpClassDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604025715612" />
-    <state x="-1436" y="164" key="NewPhpFileDialog" timestamp="1605107965531">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605107965531" />
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1605368985301">
+    <state x="-1434" y="165" key="NewPhpFileDialog" timestamp="1605465190476">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605368985301" />
+    <state x="-1434" y="165" key="NewPhpFileDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605465190476" />
+    <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605107965531" />
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1605378697152">
+      <screen x="-5068" y="-365" width="5068" height="1415" />
+    </state>
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605378697152" />
     <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
     <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604871343142">
       <screen x="-5074" y="-367" width="5074" height="1417" />
