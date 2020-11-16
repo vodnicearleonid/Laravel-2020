@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/testHomeControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/testHomeControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web_test_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web_test_route.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +205,8 @@
       <workItem from="1605219939623" duration="76000" />
       <workItem from="1605220075441" duration="8722000" />
       <workItem from="1605353142888" duration="97000" />
-      <workItem from="1605365498129" duration="19934000" />
+      <workItem from="1605365498129" duration="21944000" />
+      <workItem from="1605526169389" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -414,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605378692986</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Шаблоны Blade. Часть 1&#10;Blade Templates">
+      <created>1605465521552</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605465521552</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +448,8 @@
     <MESSAGE value="Связи моделей. Часть 1 One To One, One To Many" />
     <MESSAGE value="жадная загрузка laravel One To One, One To Many" />
     <MESSAGE value="Связи моделей. Часть 2 Many To Many" />
-    <option name="LAST_COMMIT_MESSAGE" value="Связи моделей. Часть 2 Many To Many" />
+    <MESSAGE value="Шаблоны Blade. Часть 1&#10;Blade Templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шаблоны Blade. Часть 1&#10;Blade Templates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -459,10 +464,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1605378692891">
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1605465521425">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605378692891" />
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605465521425" />
     <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
@@ -485,10 +490,10 @@
     </state>
     <state x="-1434" y="165" key="NewPhpFileDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605465190476" />
     <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605107965531" />
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1605378697152">
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1605465526410">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605378697152" />
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605465526410" />
     <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
     <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604871343142">
       <screen x="-5074" y="-367" width="5074" height="1417" />
