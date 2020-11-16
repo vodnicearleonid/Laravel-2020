@@ -137,3 +137,14 @@
     foreach ($tag->posts as $post) {
     dump($post->title);
     }*/
+
+    $h3 = 'home page';
+
+    $data1 = range(1, 20); // masiv numeric
+
+    // masiv asociativ
+    $data2 = [
+    'title' => 'Title',
+    'content' => 'Content',
+    'keys' => 'Keywords'
+    ];
