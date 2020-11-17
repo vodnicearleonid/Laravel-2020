@@ -19,11 +19,17 @@ use App\Http\Controllers\PageController;
 
 //Route::get('/', 'HomeController@index');
 Route::get('/', [HomeController::class, 'index'])->name('home');
+/*Route::get('/create', 'HomeController@create')->name('posts.create');
+Route::post('/', 'HomeController@store')->name('posts.store');*/
+Route::get('/create', [HomeController::class, 'create'])->name('posts.create');
+Route::post('/', [HomeController::class, 'store'])->name('posts.store');
+
+
+
+
+
 Route::get('/page/about', [PageController::class, 'show'])->name('page.about');
-
-
-
-Route::resource('/admin/posts', PostController::class, ['parameters' =>['posts' => 'slug']]);
+//Route::resource('/admin/posts', PostController::class, ['parameters' =>['posts' => 'slug']]);
 //Route::resources(['posts' => PostController::class]);
 
 
