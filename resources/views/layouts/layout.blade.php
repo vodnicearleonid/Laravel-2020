@@ -55,7 +55,7 @@
 <main role="main">
 
     <div class="container"> {{--conectarea alertelor despre erori--}}
-        @include('layouts.errors')
+        @include('layouts.alerts')
     </div>
 
     @yield('content')
