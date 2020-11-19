@@ -11,7 +11,22 @@ const mix = require('laravel-mix');
  |
  */
 
+/*
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+*/
+mix.styles([
+    'resources/front/css/bootstrap.css',
+    'resources/front/css/main.css'
+], 'public/css/styles.css');
+
+mix.scripts([
+    'resources/front/js/jquery-3.5.1.slim.js',
+    'resources/front/js/bootstrap.js'
+], 'public/js/scripts.css');
+
+mix.copyDirectory('resources/front/img', 'public/img');
+
+mix.browserSync('127.0.0.1:800');

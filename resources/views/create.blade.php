@@ -42,3 +42,8 @@
         </form>
     </div>
 @endsection
+{{--@section('scripts')
+    <script>
+        alert('create');
+    </script>
+@endsection--}}

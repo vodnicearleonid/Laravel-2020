@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/testHomeControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/testHomeControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -208,7 +212,7 @@
       <workItem from="1605526169389" duration="30557000" />
       <workItem from="1605729625283" duration="599000" />
       <workItem from="1605735279546" duration="599000" />
-      <workItem from="1605784213886" duration="10295000" />
+      <workItem from="1605784213886" duration="20311000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -462,14 +466,20 @@
       <option name="project" value="LOCAL" />
       <updated>1605799752171</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Часть 1. Изучение Laravel&#10;Работа с кэшем&#10;Cache, Cookies">
+      <created>1605807382747</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1605807382747</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="CRUD Контроллеры ресурсов CRUD" />
     <MESSAGE value="Configuration Your .env" />
     <MESSAGE value="Миграции" />
@@ -494,7 +504,8 @@
     <MESSAGE value="Валидация. Часть 1" />
     <MESSAGE value="Валидация. Часть 2&#10;Validation Validarea" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Сессии Session" />
-    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Сессии Session" />
+    <MESSAGE value="Часть 1. Изучение Laravel&#10;Работа с кэшем&#10;Cache, Cookies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Работа с кэшем&#10;Cache, Cookies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -513,10 +524,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1605799751991">
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1605807382638">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605799751991" />
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605807382638" />
     <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
@@ -543,10 +554,10 @@
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
     <state width="815" height="500" key="SwitcherDM/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605796529773" />
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1605799756050">
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1605807386792">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605799756050" />
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605807386792" />
     <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
     <state x="-1444" y="158" key="cloudConfig.SelfSettingsDialog" timestamp="1605624924224">
       <screen x="-5068" y="-365" width="5068" height="1415" />
@@ -582,5 +593,9 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676230428" />
+    <state x="-1701" y="-48" width="838" height="1032" key="search.everywhere.popup" timestamp="1605829118933">
+      <screen x="-5068" y="-365" width="5068" height="1415" />
+    </state>
+    <state x="-1701" y="-48" width="838" height="1032" key="search.everywhere.popup/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605829118933" />
   </component>
 </project>

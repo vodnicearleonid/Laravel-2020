@@ -44,3 +44,8 @@
         </div>
     </div>
 @endsection
+{{--@section('scripts')
+    <script>
+        alert('home');
+    </script>
+@endsection--}}
