@@ -148,3 +148,79 @@
     'content' => 'Content',
     'keys' => 'Keywords'
     ];
+
+    //Cookie::queue(Cookie::forget('test'));// sterge cookie
+    //Cookie::queue('test', 'Test cooke', 5); // setarea cookie
+    //dump(Cookie::get('test'));
+    /*dump($request->cookie('test'));*/
+    //$posts = Post::all();
+
+    //exeplul 1
+    //$request->session()->put('Test 1', 'Test 1 Value');
+    //exeplul 2
+    /*session(['cart' => [
+    ['id' => 1, 'title' => 'Product 1'],
+    ['id' => 2, 'title' => 'Product 2']
+    ]]);*/
+
+    // adaugarea datelor la cele care deja cunt nefiind inlocuite
+    /*$request->session()->push('cart', ['cart' => 3, 'title' => 'Product 3']);
+    $request->session()->push('Test 2', 'Test 2 Value');*/
+
+    /*
+    // trei exemple de primire a dateleor
+    dump(session('test'));
+    dump(session('cart')[1]['title']);
+    dump($request->session()->get('cart')[0]['title']);*/
+
+    //dump($request->session()->all()); // afisarea sessiei
+
+    // Citirea datelor din sessie apoi stergerea datelor
+    /*dump($request->session()->pull('test'));*/
+
+    /*$request->session()->forget('Test 2'); */ // stergerea unei sessii
+    /*$request->session()->flush();*/ // stergerea completa a sessiei si a tokenului
+
+    //dump(session()->all()); // afisarea sessiei
+
+    public function store(Request $request){
+    /*dump($request->input('title'));
+    dump($request->input('content'));
+    dd($request->input('rubric_id'));*/
+    //dd($request->all());
+
+    //validarea defauld datelor din forma
+    /*$this->validate($request, [
+    'title' => 'required|min:5|max:100',
+    'content' => 'required',
+    'rubric_id' => 'integer',
+    ]);*/
+
+
+    /*// validarea costumizata personalizata
+    $rules = [
+    'title' => 'required|min:5|max:100',
+    'content' => 'required',
+    'rubric_id' => 'integer',
+    ];
+    $messages = [
+    'title.required' => 'Completat titlul',
+    'title.min' => 'Minim 5 caractere pentru titlu',
+    'title.max' => 'Maxim 100 caractere pentru titlu',
+    'content.required' => 'Completati Contentul',
+    'rubric_id.integer' => 'Selectati rubrica din lista',
+    ];
+    $validator = Validator::make($request->all(), $rules, $messages)->validate(); // validarea costumizata personalizata*/
+
+    $this->validate($request, [
+    'title' => 'required|min:5|max:100',
+    'content' => 'required',
+    'rubric_id' => 'integer',
+    ]);
+
+    Post::create($request->all()); // important sa daugam coloanele in care salvam informatia in tabele protected mapa Models Post.php protected $fillable = ['title', 'content', 'rubric_id'];
+    //$request->session()->flash('success', 'Datele au fost salvate!');
+    return redirect()->route('home'); // resirect la pagina principala
+    }
+    }
+
