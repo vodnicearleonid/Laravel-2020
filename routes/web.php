@@ -21,9 +21,11 @@ use App\Http\Controllers\ContactController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/create', [HomeController::class, 'create'])->name('posts.create');
 Route::post('/', [HomeController::class, 'store'])->name('posts.store');
-Route::get('/send', [ContactController::class, 'send']);
 Route::get('/page/about', [PageController::class, 'show'])->name('page.about');
+Route::match(['get', 'post'], '/send', [ContactController::class, 'send']);
+
 /*
+Route::match(['get', 'post'], '/send', 'App\Http\Controllers\ContactController@send');
 Route::resource('/admin/posts', PostController::class, ['parameters' =>['posts' => 'slug']]);
 Route::resources(['posts' => PostController::class]);
 Route::get('/', 'HomeController@index');
