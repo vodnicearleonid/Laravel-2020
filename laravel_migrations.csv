@@ -1,0 +1,5 @@
+1,2014_10_12_000000_create_users_table,1
+2,2014_10_12_100000_create_password_resets_table,1
+3,2019_08_19_000000_create_failed_jobs_table,1
+5,2020_11_05_011138_create_posts_table,2
+6,2020_11_05_013418_change_posts_table,3
