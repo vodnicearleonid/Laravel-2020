@@ -1,12 +1,8 @@
 @extends('layouts.layout')
-
 @section('title')@parent:: Registration @endsection
-{{--@section('title')@parent:: <?=  $title ?> @endsection--}}
-
 @section('header')
     @parent
 @endsection
-
 @section('content')
     <div class="container">
         <form method="post" action="{{ route('register.store') }}">

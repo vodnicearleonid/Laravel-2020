@@ -14,6 +14,7 @@ class UserController extends Controller
     }
 
     public function store(Request $request){
+
         $request->validate([
             'name'=>'required',
             'email'=>'required|email|unique:users',
@@ -24,7 +25,7 @@ class UserController extends Controller
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
-        seeion()->flash('success', 'Successfull registration');
+        seeion()->flash('success', 'Successful registration');
         Auth::login($user);
         return redirect()->home();
 
