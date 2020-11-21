@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,8 @@ Route::get('/create', [HomeController::class, 'create'])->name('posts.create');
 Route::post('/', [HomeController::class, 'store'])->name('posts.store');
 Route::get('/page/about', [PageController::class, 'show'])->name('page.about');
 Route::match(['get', 'post'], '/send', [ContactController::class, 'send']);
+Route::get('/register', [UserController::class, 'create'])->name('register.create');
+Route::post('/register', [UserController::class, 'store'])->name('register.store');
 
 /*
 Route::match(['get', 'post'], '/send', 'App\Http\Controllers\ContactController@send');

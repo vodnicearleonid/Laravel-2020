@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     {
         //afisarea sau urmarirea interogarilor catre baza de date
         DB::listen(function ($query){
-           dump($query->sql); //afisarea interogarilor catre baza de date
+           //dump($query->sql); //afisarea interogarilor catre baza de date
         });
     }
 }
