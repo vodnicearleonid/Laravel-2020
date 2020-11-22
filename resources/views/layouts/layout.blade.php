@@ -47,18 +47,23 @@
                 <a href="{{ route('login.create') }}"> Login </a>
             @endif--}}
 
-            @auth()
-                <a href="#">{{ auth()->user()->name }}</a>
+            @auth
+                <a href="#">
+                    {{ auth()->user()->name }}
+                    @if(auth()->user()->avatar)
+                        <img src="{{ asset('storage/' . auth()->user()->avatar) }}" alt="" height="30">
+                    @endif
+                </a>
                 <a href="{{ route('logout') }}"> Log out </a>
             @endauth
 
-            @guest()
+            @guest
                 <a href="{{ route('register.create') }}"> Register </a>
                 <a href="{{ route('login.create') }}"> Login </a>
             @endguest
 
 
-            {{--<a href="{{ route('posts.create') }}"> Create </a>--}}
+            <a href="{{ route('posts.create') }}"> Create </a>
 
             {{--@php
               dump(\Illuminate\Support\Facades\Auth::check())

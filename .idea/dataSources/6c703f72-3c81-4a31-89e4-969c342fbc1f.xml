@@ -4873,182 +4873,192 @@ Language</ColNames>
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
     </column>
-    <index id="1178" parent="371" name="users_email_unique">
+    <column id="1178" parent="371" name="is_admin">
+      <Position>9</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1179" parent="371" name="avatar">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <index id="1180" parent="371" name="users_email_unique">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="1179" parent="371" name="PRIMARY">
+    <key id="1181" parent="371" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="1180" parent="371" name="users_email_unique">
+    <key id="1182" parent="371" name="users_email_unique">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
     </key>
-    <column id="1181" parent="372" name="ID">
+    <column id="1183" parent="372" name="ID">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="1182" parent="372" name="Name">
+    <column id="1184" parent="372" name="Name">
       <Position>2</Position>
       <DataType>char(35)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1183" parent="372" name="CountryCode">
+    <column id="1185" parent="372" name="CountryCode">
       <Position>3</Position>
       <DataType>char(3)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1184" parent="372" name="District">
+    <column id="1186" parent="372" name="District">
       <Position>4</Position>
       <DataType>char(20)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1185" parent="372" name="Population">
+    <column id="1187" parent="372" name="Population">
       <Position>5</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <index id="1186" parent="372" name="CountryCode">
+    <index id="1188" parent="372" name="CountryCode">
       <ColNames>CountryCode</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1187" parent="372" name="PRIMARY">
+    <key id="1189" parent="372" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1188" parent="372" name="city_ibfk_1">
+    <foreign-key id="1190" parent="372" name="city_ibfk_1">
       <ColNames>CountryCode</ColNames>
       <RefTableName>country</RefTableName>
       <RefColNames>Code</RefColNames>
     </foreign-key>
-    <column id="1189" parent="373" name="Code">
+    <column id="1191" parent="373" name="Code">
       <Position>1</Position>
       <DataType>char(3)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1190" parent="373" name="Name">
+    <column id="1192" parent="373" name="Name">
       <Position>2</Position>
       <DataType>char(52)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1191" parent="373" name="Continent">
+    <column id="1193" parent="373" name="Continent">
       <Position>3</Position>
       <DataType>enum(&apos;Asia&apos;, &apos;Europe&apos;, &apos;North America&apos;, &apos;Africa&apos;, &apos;Oceania&apos;, &apos;Antarctica&apos;, &apos;South America&apos;)|0e</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;Asia&apos;</DefaultExpression>
     </column>
-    <column id="1192" parent="373" name="Region">
+    <column id="1194" parent="373" name="Region">
       <Position>4</Position>
       <DataType>char(26)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1193" parent="373" name="SurfaceArea">
+    <column id="1195" parent="373" name="SurfaceArea">
       <Position>5</Position>
       <DataType>decimal(10,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0.00</DefaultExpression>
     </column>
-    <column id="1194" parent="373" name="IndepYear">
+    <column id="1196" parent="373" name="IndepYear">
       <Position>6</Position>
       <DataType>smallint|0s</DataType>
     </column>
-    <column id="1195" parent="373" name="Population">
+    <column id="1197" parent="373" name="Population">
       <Position>7</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="1196" parent="373" name="LifeExpectancy">
+    <column id="1198" parent="373" name="LifeExpectancy">
       <Position>8</Position>
       <DataType>decimal(3,1 digit)|0s</DataType>
     </column>
-    <column id="1197" parent="373" name="GNP">
+    <column id="1199" parent="373" name="GNP">
       <Position>9</Position>
       <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
-    <column id="1198" parent="373" name="GNPOld">
+    <column id="1200" parent="373" name="GNPOld">
       <Position>10</Position>
       <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
-    <column id="1199" parent="373" name="LocalName">
+    <column id="1201" parent="373" name="LocalName">
       <Position>11</Position>
       <DataType>char(45)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1200" parent="373" name="GovernmentForm">
+    <column id="1202" parent="373" name="GovernmentForm">
       <Position>12</Position>
       <DataType>char(45)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1201" parent="373" name="HeadOfState">
+    <column id="1203" parent="373" name="HeadOfState">
       <Position>13</Position>
       <DataType>char(60)|0s</DataType>
     </column>
-    <column id="1202" parent="373" name="Capital">
+    <column id="1204" parent="373" name="Capital">
       <Position>14</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="1203" parent="373" name="Code2">
+    <column id="1205" parent="373" name="Code2">
       <Position>15</Position>
       <DataType>char(2)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <key id="1204" parent="373" name="PRIMARY">
+    <key id="1206" parent="373" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Code</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="1205" parent="374" name="CountryCode">
+    <column id="1207" parent="374" name="CountryCode">
       <Position>1</Position>
       <DataType>char(3)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1206" parent="374" name="Language">
+    <column id="1208" parent="374" name="Language">
       <Position>2</Position>
       <DataType>char(30)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="1207" parent="374" name="IsOfficial">
+    <column id="1209" parent="374" name="IsOfficial">
       <Position>3</Position>
       <DataType>enum(&apos;T&apos;, &apos;F&apos;)|0e</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;F&apos;</DefaultExpression>
     </column>
-    <column id="1208" parent="374" name="Percentage">
+    <column id="1210" parent="374" name="Percentage">
       <Position>4</Position>
       <DataType>decimal(4,1 digit)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0.0</DefaultExpression>
     </column>
-    <index id="1209" parent="374" name="CountryCode">
+    <index id="1211" parent="374" name="CountryCode">
       <ColNames>CountryCode</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1210" parent="374" name="PRIMARY">
+    <key id="1212" parent="374" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>CountryCode
 Language</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1211" parent="374" name="countryLanguage_ibfk_1">
+    <foreign-key id="1213" parent="374" name="countryLanguage_ibfk_1">
       <ColNames>CountryCode</ColNames>
       <RefTableName>country</RefTableName>
       <RefColNames>Code</RefColNames>
