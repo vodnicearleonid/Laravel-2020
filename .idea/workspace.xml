@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/user/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/scripts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/alerts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/alerts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +221,8 @@
       <workItem from="1605982064986" duration="741000" />
       <workItem from="1605985320088" duration="2164000" />
       <workItem from="1605996214686" duration="65000" />
-      <workItem from="1605996307100" duration="7853000" />
+      <workItem from="1605996307100" duration="8015000" />
+      <workItem from="1606043035759" duration="6834000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -528,14 +525,20 @@
       <option name="project" value="LOCAL" />
       <updated>1605982202732</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Часть 1. Изучение Laravel&#10;Аутентификация">
+      <created>1606005616428</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1606005616429</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="целостность данных sql" />
     <MESSAGE value="Конструктор запросов _1" />
     <MESSAGE value="Конструктор запросов _2" />
     <MESSAGE value="Конструктор запросов _3" />
@@ -560,7 +563,8 @@
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Отправка Email. Часть 1&#10;Mail" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Отправка Email. Часть 2&#10;Mail" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Регистрация" />
-    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Регистрация" />
+    <MESSAGE value="Часть 1. Изучение Laravel&#10;Аутентификация" />
+    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Аутентификация" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -579,10 +583,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1605982202495">
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1606005616210">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605982202495" />
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606005616210" />
     <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
@@ -610,10 +614,10 @@
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
     <state width="815" height="500" key="SwitcherDM/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605796529773" />
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1605982205802">
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1606005620613">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605982205802" />
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606005620613" />
     <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
     <state x="-1444" y="158" key="cloudConfig.SelfSettingsDialog" timestamp="1605624924224">
       <screen x="-5068" y="-365" width="5068" height="1415" />

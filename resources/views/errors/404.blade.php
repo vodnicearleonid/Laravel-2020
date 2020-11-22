@@ -10,7 +10,7 @@
 
 <p>… 404 Your HTML content here …</p>
 
-<h3>{{ $exception->getmessage() }}</h3>
+<h3> 404 - Page not found... </h3>
 
 </body>
 </html>
