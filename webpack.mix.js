@@ -25,7 +25,7 @@ mix.styles([
 mix.scripts([
     'resources/front/js/jquery-3.5.1.slim.js',
     'resources/front/js/bootstrap.js'
-], 'public/js/scripts.css');
+], 'public/js/scripts.js');
 
 mix.copyDirectory('resources/front/img', 'public/img');
 

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\MainController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\Test\TestController;
 use Illuminate\Support\Facades\Route;
@@ -26,6 +27,10 @@ Route::get('/page/about', [PageController::class, 'show'])->name('page.about');
 Route::match(['get', 'post'], '/send', [ContactController::class, 'send']);
 Route::get('/register', [UserController::class, 'create'])->name('register.create');
 Route::post('/register', [UserController::class, 'store'])->name('register.store');
+Route::get('/login', [UserController::class, 'loginForm'])->name('login.create');
+Route::post('/login', [UserController::class, 'login'])->name('login');
+Route::get('/logout', [UserController::class, 'logout'])->name('logout');
+Route::get('/admin', [MainController::class, 'index']);
 
 /*
 Route::match(['get', 'post'], '/send', 'App\Http\Controllers\ContactController@send');
