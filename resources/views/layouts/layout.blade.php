@@ -65,9 +65,9 @@
 
             <a href="{{ route('posts.create') }}"> Create </a>
 
-            {{--@php
+            @php
               dump(\Illuminate\Support\Facades\Auth::check())
-            @endphp--}}
+            @endphp
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

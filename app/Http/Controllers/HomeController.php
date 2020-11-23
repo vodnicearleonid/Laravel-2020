@@ -42,6 +42,7 @@ class HomeController extends Controller
         $title = 'Create Post';
         $rubrics = Rubric::pluck('title', 'id')->all();//primim in forma de masiv toate rubricile si le transmitem in foreach in forma prin view compact('title', 'rubrics'));
         return view('create', compact('title', 'rubrics'));// transmitem in view titlul si rubicile in primul parametru si in al doilea
+
     }
 
     public function store(Request $request){

@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c703f72-3c81-4a31-89e4-969c342fbc1f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6c703f72-3c81-4a31-89e4-969c342fbc1f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +223,8 @@
       <workItem from="1605985320088" duration="2164000" />
       <workItem from="1605996214686" duration="65000" />
       <workItem from="1605996307100" duration="8015000" />
-      <workItem from="1606043035759" duration="12800000" />
+      <workItem from="1606043035759" duration="15425000" />
+      <workItem from="1606128337181" duration="8400000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -540,14 +541,20 @@
       <option name="project" value="LOCAL" />
       <updated>1606061165692</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Часть 1. Изучение Laravel&#10;Загрузка картинок">
+      <created>1606073436365</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1606073436365</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Конструктор запросов _2" />
     <MESSAGE value="Конструктор запросов _3" />
     <MESSAGE value="Конструктор запросов _join" />
     <MESSAGE value="Конструктор запросов _join 4" />
@@ -572,7 +579,8 @@
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Регистрация" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Аутентификация" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Middleware" />
+    <MESSAGE value="Часть 1. Изучение Laravel&#10;Загрузка картинок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Загрузка картинок" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -591,10 +599,10 @@
       <screen x="-5074" y="-367" width="5074" height="1417" />
     </state>
     <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1606061165479">
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1606073436198">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606061165479" />
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606073436198" />
     <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
@@ -622,10 +630,10 @@
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
     <state width="815" height="500" key="SwitcherDM/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605796529773" />
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1606061170462">
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1606073439905">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606061170462" />
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606073439905" />
     <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
     <state x="-1444" y="158" key="cloudConfig.SelfSettingsDialog" timestamp="1605624924224">
       <screen x="-5068" y="-365" width="5068" height="1415" />

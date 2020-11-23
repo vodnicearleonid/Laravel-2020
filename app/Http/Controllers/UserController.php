@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Rubric;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -21,6 +22,7 @@ class UserController extends Controller
             'password'=>'required|confirmed',
             'avatar'=>'nullable|image',
         ]);
+
         //dd($request->all());
         if ($request->hasFile('avatar')){
             $folder = date('Y-m-d');
@@ -43,6 +45,7 @@ class UserController extends Controller
     }
     public function login(Request $request){
         //dd($request->all());
+        //dd($request);
         $request->validate([
             'email'=>'required|email',
             'password'=>'required',
@@ -55,8 +58,11 @@ class UserController extends Controller
             return redirect()->home();
         }
         return redirect()->back()->with('error', 'Incorrect login or password');
+
     }
     public function logout(){
+//        Auth::logout();
+        auth()->logout();
         return redirect()->route('login.create');
     }
 }
