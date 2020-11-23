@@ -17,23 +17,7 @@ class HomeController extends Controller
 {
     public function index(Request $request){
 
-        /*Cache::put('key', 'value', 60); // Modalitatea de a scrie ceva in Cache 1 minut
-        dump(Cache::get('key'));*/
-
-        /*Cache::put('key', 'value', 600);// Setarea cache, afisarea si stergerea cache-lui
-        dump(Cache::pull('key'));
-        dump(Cache::get('key'));*/
-
-        //Cache::flush(); //Sterge cashe complet
-
-        // Vaerificam cu 'has' daca in posts sunt date, daca nu sunt pe punem in cache
-        if (Cache::has('posts')){
-            $posts = Cache::get('posts');
-        }else{
-            $posts = Post::orderBy('id', 'desc')->get();
-            Cache::put('posts', $posts);
-        }
-
+        $posts = Post::orderBy('id', 'desc')->paginate(3);
         $title ='Home page';
         return view('home', compact('title', 'posts'));
     }
