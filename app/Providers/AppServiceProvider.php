@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Rubric;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -25,9 +26,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //afisarea sau urmarirea interogarilor catre baza de date
+        /*DB::listen(function ($query){
+            Log::info($query->sql);
+        });*/
+
+        //afisarea sau urmarirea interogarilor catre baza de date. dump($query->sql); //afisarea interogarilor catre baza de date
         DB::listen(function ($query){
-        //dump($query->sql); //afisarea interogarilor catre baza de date
+            Log::channel('sqllogs')->info($query->sql);
         });
 
         view()->composer('layouts.footer', function ($view){
