@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +221,7 @@
       <workItem from="1605996214686" duration="65000" />
       <workItem from="1605996307100" duration="8015000" />
       <workItem from="1606043035759" duration="15425000" />
-      <workItem from="1606128337181" duration="22895000" />
+      <workItem from="1606128337181" duration="29345000" />
     </task>
     <task id="LOCAL-00001" summary="part1/part1_2.html">
       <created>1603676290193</created>
@@ -559,14 +559,20 @@
       <option name="project" value="LOCAL" />
       <updated>1606145459202</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Часть 1. Изучение Laravel&#10;Seeding">
+      <created>1606162662572</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1606162662572</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Конструктор запросов _join 4" />
     <MESSAGE value="Модель и Eloquent ORM. Часть 1" />
     <MESSAGE value="Модель и Eloquent ORM. Часть 1_2" />
     <MESSAGE value="Модель и Eloquent ORM. Часть 2" />
@@ -591,7 +597,8 @@
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Загрузка картинок" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;View Composers" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Pagination" />
+    <MESSAGE value="Часть 1. Изучение Laravel&#10;Seeding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Часть 1. Изучение Laravel&#10;Seeding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
@@ -614,10 +621,10 @@
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
     <state x="-1609" y="44" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606153783745" />
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1606145459070">
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1606162662426">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606145459070" />
+    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606162662426" />
     <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
     <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
       <screen x="-5074" y="-367" width="5074" height="1417" />
@@ -645,10 +652,10 @@
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
     <state width="815" height="500" key="SwitcherDM/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605796529773" />
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1606145463979">
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1606162667261">
       <screen x="-5068" y="-365" width="5068" height="1415" />
     </state>
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606145463979" />
+    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606162667261" />
     <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
     <state x="-1444" y="158" key="cloudConfig.SelfSettingsDialog" timestamp="1605624924224">
       <screen x="-5068" y="-365" width="5068" height="1415" />
