@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd5fb797-ffed-4c27-8c15-4846eb2433ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +15,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -222,14 +228,24 @@
       <workItem from="1605996214686" duration="65000" />
       <workItem from="1605996307100" duration="8015000" />
       <workItem from="1606043035759" duration="15425000" />
-      <workItem from="1606128337181" duration="35611000" />
-    </task>
-    <task id="LOCAL-00004" summary="Роутинг в Laravel. Часть 3">
-      <created>1603930671483</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1603930671483</updated>
+      <workItem from="1606128337181" duration="36511000" />
+      <workItem from="1606214197640" duration="1575000" />
+      <workItem from="1606229844204" duration="1522000" />
+      <workItem from="1606247861093" duration="4223000" />
+      <workItem from="1606397260690" duration="2571000" />
+      <workItem from="1606599229663" duration="1109000" />
+      <workItem from="1606655061796" duration="599000" />
+      <workItem from="1606677429097" duration="599000" />
+      <workItem from="1606688273573" duration="599000" />
+      <workItem from="1606731939670" duration="599000" />
+      <workItem from="1606817324978" duration="599000" />
+      <workItem from="1606856258189" duration="599000" />
+      <workItem from="1606907421948" duration="599000" />
+      <workItem from="1606939723378" duration="599000" />
+      <workItem from="1606991340400" duration="599000" />
+      <workItem from="1607034958731" duration="522000" />
+      <workItem from="1607092128984" duration="2836000" />
+      <workItem from="1610576516454" duration="2510000" />
     </task>
     <task id="LOCAL-00005" summary="Контроллеры в Laravel">
       <created>1604026375540</created>
@@ -567,14 +583,20 @@
       <option name="project" value="LOCAL" />
       <updated>1606175945315</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Database: Seeding !!!">
+      <created>1606176563522</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1606176563522</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Модель и Eloquent ORM. Часть 2 One To One" />
     <MESSAGE value="Связи моделей. Часть 1 One To One, One To Many" />
     <MESSAGE value="жадная загрузка laravel One To One, One To Many" />
     <MESSAGE value="Связи моделей. Часть 2 Many To Many" />
@@ -599,103 +621,7 @@
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Mutators (Мутаторы)" />
     <MESSAGE value="Часть 1. Изучение Laravel&#10;Логирование" />
     <MESSAGE value="Database: Seeding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database: Seeding" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1651" y="13" key="#Inspections" timestamp="1604110359245">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1651" y="13" key="#Inspections/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604110359245" />
-    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604871331052">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1637" y="-126" width="1241" height="966" key="#com.intellij.execution.impl.EditConfigurationsDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871331052" />
-    <state x="-1801" y="126" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606142081808">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1801" y="126" key="#com.intellij.fileTypes.FileTypeChooser/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606142081808" />
-    <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604094432538">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1535" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604094432538" />
-    <state x="-1609" y="44" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606153783745">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1609" y="44" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606153783745" />
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2" timestamp="1606175945163">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1829" y="-297" width="1089" height="1302" key="CommitChangelistDialog2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606175945163" />
-    <state x="-1831" y="-299" width="1089" height="1303" key="CommitChangelistDialog2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308642170" />
-    <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604871993603">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1671" y="46" key="DUMP_DIALOG_DIMENSION_KEY/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871993603" />
-    <state x="-1954" y="-80" key="DiffContextDialog" timestamp="1603676175601">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1954" y="-80" key="DiffContextDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676175601" />
-    <state width="343" height="692" key="HiddenNamespacesPopup" timestamp="1604534036596">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state width="343" height="692" key="HiddenNamespacesPopup/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604534036596" />
-    <state x="-1641" y="5" key="NewPhpClassDialog" timestamp="1606154276964">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1641" y="5" key="NewPhpClassDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606154276964" />
-    <state x="-1643" y="4" key="NewPhpClassDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604025715612" />
-    <state x="-1434" y="165" key="NewPhpFileDialog" timestamp="1606001607052">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1434" y="165" key="NewPhpFileDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606001607052" />
-    <state x="-1436" y="164" key="NewPhpFileDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605107965531" />
-    <state width="815" height="500" key="SwitcherDM" timestamp="1605796529773">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state width="815" height="500" key="SwitcherDM/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605796529773" />
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2" timestamp="1606175949665">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1781" y="14" key="Vcs.Push.Dialog.v2/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1606175949665" />
-    <state x="-1783" y="13" key="Vcs.Push.Dialog.v2/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308648733" />
-    <state x="-1444" y="158" key="cloudConfig.SelfSettingsDialog" timestamp="1605624924224">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1444" y="158" key="cloudConfig.SelfSettingsDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605624924224" />
-    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604871343142">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1399" y="192" width="651" height="361" key="com.intellij.database.actions.DdlActions$CreateObject$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871343142" />
-    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605271496431">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1413" y="195" width="422" height="313" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605271496431" />
-    <state x="-1796" y="-68" key="com.intellij.database.dbimport.ImportDialog" timestamp="1604871979533">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-1796" y="-68" key="com.intellij.database.dbimport.ImportDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1604871979533" />
-    <state x="-1576" y="112" width="594" height="451" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605627859979">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1576" y="112" width="594" height="451" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605627859979" />
-    <state x="-1578" y="111" width="594" height="441" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605308421460" />
-    <state x="-1794" y="-108" width="1262" height="825" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605550671341">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1794" y="-108" width="1262" height="825" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605550671341" />
-    <state x="-1786" y="32" width="1202" height="826" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605271453867" />
-    <state x="-1591" y="102" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1605877902701">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1591" y="102" key="com.jetbrains.php.test.PhpNewTestDialog/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605877902701" />
-    <state x="-1593" y="101" key="com.jetbrains.php.test.PhpNewTestDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1605272365215" />
-    <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603676230428">
-      <screen x="-5074" y="-367" width="5074" height="1417" />
-    </state>
-    <state x="-2812" y="158" key="git4idea.remote.GitConfigureRemotesDialog/-5074.-367.5074.1417/0.23.1680.1027@-5074.-367.5074.1417" timestamp="1603676230428" />
-    <state x="-1701" y="-48" width="838" height="1032" key="search.everywhere.popup" timestamp="1605829118933">
-      <screen x="-5068" y="-365" width="5068" height="1415" />
-    </state>
-    <state x="-1701" y="-48" width="838" height="1032" key="search.everywhere.popup/-5068.-365.5068.1415/0.25.1680.1025@-5068.-365.5068.1415" timestamp="1605829118933" />
+    <MESSAGE value="Database: Seeding !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database: Seeding !!!" />
   </component>
 </project>
